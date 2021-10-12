@@ -1,0 +1,273 @@
+img {
+    max-width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+.image{
+    position: relative;
+}
+.One{
+background-image: url("diamond_upholstery.png");
+width: 100%;
+height: 400px;
+text-align: center;
+background-size: 40px;
+}
+footer{
+    overflow: hidden;
+    text-align: center;
+    background-image: url("1fotter.jpg");
+    opacity: 0.7;
+    color: aliceblue;
+    width: 100%;
+    position: absolute;   
+}
+footer #social img{
+width: 50px;
+height: 50px;
+}
+footer #social img:hover{
+    width: 60px;
+height: 60px;
+}
+#navbar {
+    overflow: hidden;
+    position: fixed; 
+    margin: 0;
+    padding: 100px;
+    top: 0;
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    width: 100%; 
+    padding: 15px 15px;
+    text-align: center;
+}
+  #navbar li { display: inline; }
+  #navbar a {
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+  }
+  #navbar a:hover{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border: 2px solid white;
+    border-radius: 18px;
+    transition: all 0.2s;
+    margin-top: -8px;
+ }
+  .center_our_work{
+   
+
+  text-align: center;
+  }
+  .photo img{
+      width: 300px;
+      height: 350px;
+      border: 2px solid #000000;
+      margin-left: 30px;
+      max-width: 100%;
+  }
+  
+  .gallery{
+      width:100%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 100px;
+  }
+  .why_we{
+     background-image: url("tattoback.jpg");
+     background-size: 100% 600px;
+      width: 100%;
+      height: 550px;
+      color: rgb(255, 255, 255);
+  }
+.center_for_whywe{
+        color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+.row_conteier{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    width: 70%;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   flex-wrap: wrap;
+}
+.row_item{
+    width: 30%;
+}
+.studio_head{
+    text-align: center;
+    background-color: rgb(39, 38, 38);
+    color: aliceblue;
+    width: 100%;
+    height: 120px;
+    
+}
+.center_for_studio{
+    text-align: center;
+    padding-top: 30px;
+}
+.main_studio{
+    background-image: url("pexels-photo-2183131 (1).jpeg");
+    background-size: 100% 500px;
+    
+    width: 100%;
+    height: 500px;
+    color: aliceblue;
+    margin: 0%;    
+}
+.photo_studio{
+    float: right;
+    margin: 70px 200px 50px 100px;
+}
+.discript_studio{
+padding-top: 30px;
+margin-left: 40px;
+
+}
+.main_tattoomaster{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    width: 100%;
+    height: 600px;
+}
+.head_tattoomaster{
+    text-align: center;
+    padding-top: 30px;
+}
+.photo_mastera{
+    text-align: center;
+    padding-top: 25px;
+}
+.ttattoomaster_discription{
+    text-align: center;
+}
+.line{
+    width: 100%;
+    background-image: url("abc.jpg");
+    color: rgb(229, 255, 0);
+    height: 700px;
+    text-align: center;
+}
+
+.working-days,
+.working-days dt,
+.working-days dd {
+    margin: 0;
+}
+
+.working-days {
+    overflow: hidden;
+}
+
+.working-days dt,
+.working-days dd {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.working-days dd {
+    color: #94f318;
+    font-weight: bold;
+    
+}
+#text_w{
+    text-align: center;
+    width: 100%;
+}
+dt{
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+dd{
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+aside {
+    float: left;
+    width: 246px;
+    height: 998px;
+    padding-left: 21px;
+    padding-top: 19px;
+    box-sizing: border-box;
+}
+div.sidebar1 {
+    background: url(images111.jpg);
+    width: 214px;
+    height: 410px;
+    border: 1px solid #d8dbde;
+    padding-left: 11px;
+    padding-top: 19px;
+    box-sizing: border-box;
+    text-align: center;
+}
+p.contact {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+input {
+    background: #e3e4e5;
+    width: 185px;
+    height: 33px;
+    border: 1px solid #fffcfc;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.1);
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+}
+select {
+    background: #e3e4e5;
+    width: 185px;
+    height: 33px;
+    color: #757575;
+    font-size: 14px;
+    border: 1px solid #a2a2a2;
+    border-radius: 4px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+input.in6 {
+    background: ( #00ff55);
+    width: 178px;
+    height: 47px;
+    border: 5px solid #ff0000;
+    box-sizing: border-box;
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    font-size: 16px;
+    color: #ff0000;
+    cursor: pointer;
+}
+a.a3 {
+    position: relative;
+    font-size: 12px;
+    color: #1a1717;
+}
+.video{
+    float: left;
+    margin-top: 50px;
+    margin-left: 500px;
+    overflow: hidden;
+    position: absolute;
+}
+.allJS{
+    background-image: url(photo.jpg);
+    background-size: 100%;
+}
